@@ -1,0 +1,58 @@
+.how-it-works {
+    max-width: 1773px;
+    width: 100%;
+    height: 340px;
+    flex-shrink: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.icon-search {
+    position: relative;
+    top: 60px;
+}
+.icon-thumb {
+    position: relative;
+    top: 60px;
+}
+h5 {
+    color: #E8E8E8;
+    text-align: center;
+    font-family: 'Aleo', serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 72.222% */ 
+}
+.icons-title { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;  
+}
+.select {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.icon-search:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+.icon-thumb:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+.icon-tick:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+ }
+ .icons-title a:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+ }
